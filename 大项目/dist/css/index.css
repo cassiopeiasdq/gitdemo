@@ -1,0 +1,340 @@
+html, body, ol, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, form, input, textarea, table, td, tr, th, fieldset {
+  margin: 0;
+  padding: 0; }
+
+fieldset, img {
+  border: none; }
+
+h1, h2, h3, h4, h5, h6, b, strong, i, em {
+  font-weight: normal;
+  font-style: normal; }
+
+ul, ul, li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #999; }
+
+img {
+  vertical-align: middle; }
+
+.clearfn:after {
+  content: "";
+  height: 0;
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden; }
+
+.top {
+  width: 100%;
+  height: 85px;
+  background: red; }
+
+.tnav {
+  border-bottom: 1px solid #dcdcdc;
+  height: 28px;
+  width: 100%;
+  background: #f2f2f2; }
+
+.tnav ul {
+  margin-right: 50px;
+  float: right;
+  height: 28px;
+  background: #f2f2f2;
+  border-left: 1px solid #dcdcdc; }
+
+.tnav ul a {
+  display: block;
+  float: right; }
+
+.tnav ul li {
+  color: #5a5a5a;
+  font-size: 14px;
+  height: 28px;
+  float: right;
+  padding: 0px 10px;
+  border-left: 1px solid #dcdcdc;
+  line-height: 28px; }
+
+.tformwhite {
+  text-align: center;
+  float: left;
+  width: 100%;
+  height: 110px;
+  background: #f2f2f2; }
+
+.tformwhite ul li {
+  float: left; }
+
+.tformwhite .tform div {
+  float: left; }
+
+.tformwhite .tform div button {
+  float: left; }
+
+.tformwhite .tform div input {
+  float: left;
+  width: 380px;
+  height: 38px;
+  padding-left: 10px;
+  border: 3px solid #d70057; }
+
+.tformwhite .tform div button {
+  width: 98px;
+  height: 44px;
+  border: solid 2px #d70057;
+  margin: 0px;
+  background: #d70057;
+  color: white;
+  font-size: 16px;
+  font-family: Arial;
+  padding: 0px; }
+
+.gotobuy {
+  float: left;
+  background: #ffda73;
+  width: 248px;
+  height: 32px; }
+
+.gotobuy span {
+  width: 175px;
+  height: 28px;
+  display: block;
+  background: white;
+  float: right;
+  text-align: center;
+  margin: 2px; }
+
+.tformwhite .tform ul li {
+  font-size: 12px;
+  color: #888;
+  margin-right: 10px;
+  margin-top: 3px; }
+
+.tformwhite .tformbody {
+  position: relative;
+  width: 1100px;
+  display: inline-block; }
+
+.tformwhite .tformbody li img {
+  position: relative;
+  top: 4px; }
+
+.tformwhite .tformbody li a {
+  position: absolute;
+  top: 39px;
+  right: 0; }
+
+.tformwhite .tformbody .tform {
+  position: relative;
+  top: 32px;
+  left: 50px; }
+
+.nav {
+  text-align: center;
+  background: black;
+  height: 40px;
+  width: 100%;
+  float: left; }
+  .nav ul {
+    display: inline-block;
+    width: 1150px;
+    height: 40px; }
+    .nav ul li {
+      float: left;
+      color: white;
+      line-height: 40px;
+      font-size: 14px; }
+      .nav ul li a:hover {
+        color: #d70057; }
+      .nav ul li a {
+        background: black;
+        width: 100px;
+        height: 40px;
+        display: block; }
+    .nav ul .intime {
+      position: relative;
+      top: -6px;
+      width: 122px;
+      height: 46px;
+      background: url("../images/common-thumb.png") -187px -46px no-repeat; }
+      .nav ul .intime a {
+        width: 122px;
+        height: 46px;
+        background: 0, 0, 0, 0; }
+    .nav ul .li1 a {
+      width: 100px;
+      height: 40px;
+      background: #d70057;
+      color: white; }
+    .nav ul .li1 a:hover {
+      width: 100px;
+      height: 40px;
+      background: #d70057;
+      color: white; }
+
+#in_sport {
+  left: 60px;
+  width: 1124px;
+  height: 409px;
+  position: absolute;
+  background: white;
+  top: 264px;
+  display: none;
+  z-index: 2; }
+  #in_sport div {
+    border-right: 1px #999 dashed;
+    margin-top: 10px;
+    float: left; }
+  #in_sport .in_left {
+    width: 338px;
+    height: 348px;
+    padding: 10px 12px; }
+    #in_sport .in_left h3 {
+      text-align: left;
+      float: left;
+      width: 360px;
+      height: 16px;
+      line-height: 16px;
+      font-size: 12px;
+      color: #d20d33;
+      font-weight: bold; }
+    #in_sport .in_left .sp_shoes {
+      text-align: left;
+      line-height: 20px;
+      width: 300px;
+      height: 88px;
+      padding-top: 12px;
+      border: none; }
+      #in_sport .in_left .sp_shoes h3 {
+        color: #5e5e5e; }
+  #in_sport a:hover {
+    color: #d70057; }
+  #in_sport a {
+    background: white;
+    color: #5e5e5e;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    text-align: left;
+    line-height: 20px; }
+  #in_sport .in_center {
+    width: 475px;
+    height: 372px; }
+
+.play {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  margin: 10px auto 0;
+  overflow: hidden; }
+
+#play li {
+  list-style: none; }
+
+#play img {
+  border: none; }
+
+#play ol {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  z-index: 2; }
+
+#play ol li {
+  float: left;
+  margin-right: 3px;
+  display: inline;
+  cursor: pointer;
+  background: #999;
+  border: 1px solid #999;
+  border-radius: 50%;
+  padding: 2px 6px;
+  color: #999;
+  font-family: arial;
+  font-size: 12px; }
+
+#play .active {
+  padding: 3px 8px;
+  font-weight: bold;
+  color: black;
+  background: black;
+  position: relative;
+  bottom: 2px; }
+
+#play ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; }
+
+#play ul li {
+  float: left;
+  position: relative;
+  left: -340px; }
+
+#play ul img {
+  float: left; }
+
+.white {
+  width: 100%;
+  text-align: center;
+  background: #f5f5f5; }
+
+.goods_box {
+  display: inline-block;
+  width: 1220px;
+  height: 194px;
+  text-align: center; }
+  .goods_box .goods_item {
+    background: white;
+    width: 100px;
+    height: 65px;
+    float: left;
+    border-left: 1px solid #f5f5f5;
+    border-top: 1px solid #f5f5f5; }
+
+.goods_box a {
+  display: block;
+  width: 100px;
+  height: 65px; }
+
+#list2 {
+  width: 1200px;
+  background: white;
+  display: inline-block; }
+  #list2 a {
+    text-align: center;
+    position: relative;
+    width: 593px;
+    height: 208px;
+    border: 1px solid #f2f2f2;
+    float: left;
+    display: block;
+    margin-right: 5px; }
+    #list2 a .tit2 {
+      left: -200px;
+      top: 96px;
+      font-size: 14px;
+      color: black; }
+    #list2 a .tit1 {
+      top: 80px;
+      font-size: 14px;
+      color: black; }
+    #list2 a .tit3 {
+      font-size: 20px;
+      color: #d70057;
+      font-weight: bold;
+      top: 120px; }
+    #list2 a span {
+      position: relative;
+      z-index: 1;
+      display: block;
+      width: 200px;
+      height: 18px;
+      float: left; }
+  #list2 a:hover {
+    border: 1px solid #d70057; }
